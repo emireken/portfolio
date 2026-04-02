@@ -14,7 +14,7 @@ const greeting = {
   username: "Emir Eken",
   title: "Hello, I'm Emir",
   subTitle: emoji(
-    "Project Leader with 7 years of experience  🚀 in software in technical analysis, product integration, data analytics using various project management tools and methodologies "
+    "Software Business Analyst with senior-level expertise in technical analysis, product integration, and data analytics. Delivered a performance analytics platform that improved energy-efficiency reporting for a major consulting firm and led connected-vehicle data services for a global automotive manufacturer. Proficient in Agile/Scrum, requirements gathering, and stakeholder collaboration. Aiming to leverage analytical and project-leadership skills to drive successful software solutions. "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1gmxcEI0GtxnnKDXMs2B6q5LVbojk3Kgv/view?usp=sharing",
@@ -26,11 +26,11 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/emireken",
   linkedin: "https://www.linkedin.com/in/emirgokberkeken/",
-  //gmail: "emirgokberk.eken@gmail.com",
-  gitlab: "https://gitlab.com/emireken",
+  gmail: "emirgokberk.eken@gmail.com",
+  //gitlab: "https://gitlab.com/emireken",
   //facebook: "https://www.facebook.com/emirgokberk.eken",
   //medium: "https://medium.com/@emireken",
-  stackoverflow: "https://stackoverflow.com/users/14469011/emireken",
+  //stackoverflow: "https://stackoverflow.com/users/14469011/emireken",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -39,13 +39,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "EXPLORING FULL STACK DEVELOPER WHO WANTS LEARN AS MUCH AS I CAN",
+  subTitle: "BUSINESS ANALYST SPECIALIZING IN REQUIREMENTS GATHERING, AGILE EXCELLENCE, AND STAKEHOLDER COLLABORATION",
   skills: [
     emoji(
-      "⚡ Develop Front end / User Interfaces for your web and mobile applications"
+      "⚡ Elicit, analyze, and document business and functional requirements through stakeholder collaboration"
     ),
-    // emoji("⚡ Managing projects to achieve project objectives"),
-    emoji("⚡ Integration of third party services such as Firebase/ Swagger")
+    emoji(
+      "⚡ Translate business needs into user stories, acceptance criteria, and detailed process flows"
+    ),
+    emoji(
+      "⚡ Lead Agile/Scrum ceremonies, manage product backlogs, and support UAT initiatives"
+    ),
+    emoji(
+      "⚡ Validate system functionality through comprehensive testing and quality assurance"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -53,57 +60,36 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "react",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
       skillName: "jira",
       fontAwesomeClassname: "fab fa-jira"
     },
     {
-      skillName: "QA Test",
-      fontAwesomeClassname: "fas fa-spell-check"
+      skillName: "confluence",
+      fontAwesomeClassname: "fas fa-book"
     },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
-    // {
-    //   skillName: "npm",
-    //   fontAwesomeClassname: "fab fa-npm"
-    // },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "android",
-      fontAwesomeClassname: "fab fa-android"
+      skillName: "excel",
+      fontAwesomeClassname: "fas fa-table"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "agile",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
+    {
+      skillName: "user-stories",
+      fontAwesomeClassname: "fas fa-sticky-note"
+    },
+    {
+      skillName: "process-modeling",
+      fontAwesomeClassname: "fas fa-sitemap"
+    },
+    {
+      skillName: "QA Testing",
+      fontAwesomeClassname: "fas fa-spell-check"
     },
     {
       skillName: "python",
@@ -114,8 +100,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "api-testing",
+      fontAwesomeClassname: "fas fa-plug"
+    },
+    {
+      skillName: "data-analytics",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -165,20 +159,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "IT Project Leader", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Business Requirements Analysis",
+      progressPercentage: "95%"
     },
     {
-      Stack: "Techical Analysis",
-      progressPercentage: "80%"
+      Stack: "Agile/Scrum Project Management",
+      progressPercentage: "90%"
     },
     {
-      Stack: "QA Testing",
-      progressPercentage: "80%"
+      Stack: "Technical Analysis & Documentation",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Software Development",
-      progressPercentage: "60%"
+      Stack: "User Acceptance Testing (UAT)",
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -190,14 +184,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Business Analyst",
+      company: "Performance Systems Development (PSD)",
+      companylogo: require("./assets/images/psd_logo.jpg"),
+      date: "December 2022 – Present",
+      desc: "Elicited, analyzed, and documented business and functional requirements by collaborating with stakeholders, product owners, and development teams to drive software solutions focused on performance, energy efficiency, and sustainability.",
+      descBullets: [
+        "Translated business needs into user stories, acceptance criteria, and process flows to support software development and enhancements",
+        "Supported Agile/Scrum ceremonies, including creating backlog, sprint planning, and user acceptance testing (UAT)",
+        "Validated system functionality by testing features, identifying defects, and ensuring solutions met business requirements",
+
+      ]
+    },
+    {
       role: "Tech Linguistic Tester",
       company: "Welocalize, Inc. ",
       companylogo: require("./assets/images/welocalize_logo.png"),
-      date: "Aug 2021 – Present",
-      desc: "Validated content already localized to the Turkish language, catching any errors in the content, such as grammar, typos, syntax, etc. Tested APIs for integrations and checked UIs for functional issues"
-      // descBullets: [
-      //   ""
-      // ]
+      date: "Aug 2021 – Nov 2022",
+      desc: "At Welocalize, a leading provider of multilingual content transformation services in translation, localization, and adaptation for over 250 languages, I contributed to quality assurance efforts supporting a global network of over 250,000 in-country linguistic resources.",
+      descBullets: [
+        "Validated content already localized to the Turkish language, catching any errors in the content, such as grammar, typos, syntax, etc.",
+        "Tested APIs for integrations and checked UIs for functional issues"
+      ]
     },
     {
       role: "IT Project Leader",
@@ -309,10 +317,6 @@ const achievementSection = {
       image: require("./assets/images/kafka_logo.png"),
       footerLink: [
         {
-          name: "View Certification",
-          url: "https://drive.google.com/file/d/1w784vqp33gmz0Jlrb310bBB9vZ5PNA-X/view?usp=sharing"
-        },
-        {
           name: "View Syllabus",
           url: "https://www.udacity.com/course/data-streaming-nanodegree--nd029"
         }
@@ -324,10 +328,6 @@ const achievementSection = {
         "Learned how to analyze the requirements for AI solutions, recommend appropriate tools and technologies, and implements solutions that meet scalability and performance requirements designing and Implementing an Azure AI Solution.",
       image: require("./assets/images/azure_logo.png"),
       footerLink: [
-        {
-          name: "View Certification",
-          url: "https://drive.google.com/file/d/10JbhSluI0AiCSXhL2ydIHOdGaP7Qe7lx/view?usp=sharing"
-        },
         {
           name: "View Syllabus",
           url: "https://llpa.skills-academy.com/exam/ai-100-designing-and-implementing-an-azure-ai-solution/"
@@ -426,7 +426,6 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1-6072803493",
   email_address: "emirgokberk.eken@gmail.com"
 };
 
