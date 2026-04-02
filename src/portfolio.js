@@ -121,29 +121,29 @@ const educationInfo = {
   display: true, // Set afalse to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Ataturk Univesity",
+      schoolName: "Ataturk University",
       logo: require("./assets/images/atu_logo.png"),
       subHeader: "Master of Business Administration",
       duration: "2017 - 2019",
-      desc: "Conduct a research of Project Management in Software Development."
+      desc: "Specialized in Project Management within Software Development environments. Developed expertise in business process optimization, stakeholder management, and project governance frameworks that directly inform current business analyst practices."
       // descBullets: [
       //   "Goal of this project is to design and build a cardiovascular system mock circuit (CVMC) which is drivable with an elastance based feed-back control left and right ventricles that can replicate heart’s pressure-volume relationship accurately. For this goal pressure volume relationship was calculated using elastance.",
       //   // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     },
     {
-      schoolName: "Bahcesehir Univesity",
+      schoolName: "Bahcesehir University",
       logo: require("./assets/images/bau_logo.png"),
       subHeader: "Master of Science in Bioengineering",
       duration: "2012 - 2013",
-      desc: "Participated in the research of Cardiovascular Mock Circuit."
+      desc: "Conducted research on Cardiovascular Mock Circuit systems, strengthening analytical skills in complex system design, requirements documentation, and validation testing methodologies applicable to enterprise software solutions."
       // descBullets: [
       //   "The goal of this project is to design and build a cardiovascular system mock circuit (CVMC) that is drivable with an elastance-based feed-back control left and right ventricles that can replicate the heart’s pressure-volume relationship accurately. For this goal pressure-volume relationship was calculated using elastance."
       //   // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     },
     {
-      schoolName: "Bahcesehir Univesity",
+      schoolName: "Bahcesehir University",
       logo: require("./assets/images/bau_logo.png"),
       subHeader: "Bachelor of Science in Mechatronics Engineering",
       duration: "2007 - 2012",
@@ -212,12 +212,12 @@ const workExperiences = {
       company: "Stellantis - TOFAS Automotive",
       companylogo: require("./assets/images/stellantis_logo.png"),
       date: "June 2018 – May 2021",
-      desc: "Managed projects to achieve project objectives according to the project acceptance criteria within agreed parameters.",
+      desc: "Led cross-functional IT and business initiatives spanning multiple products, translating complex business requirements into technical specifications while maintaining project scope, timeline, and quality standards.",
       descBullets: [
-        "For this purpose as a project manager, my job was creating information flow between IT and business departments.",
-        "Learned to write technical analysis for demanded software developments.",
-        "Be a member of the decision-making team for UI, UX, and overall design aesthetic of the software.",
-        "During and after developments QA Testing was part of the job.  Functionally and linguistically testing on mobile and web platforms was crucial for the production software release."
+        "Facilitated communication and alignment between IT departments and business stakeholders, ensuring shared understanding of project objectives and deliverables",
+        "Authored technical analysis documents and requirements specifications for software development projects, improving clarity and reducing scope creep",
+        "Contributed to UI/UX design decisions as part of the core decision-making team, balancing business needs with user experience best practices",
+        "Conducted comprehensive QA testing across mobile and web platforms, identifying and documenting defects that resulted in high-quality production releases"
       ]
     },
     {
@@ -237,8 +237,8 @@ const workExperiences = {
       date: "Jan 2015 – Sep 2015",
       desc: "Managed A|Store project from idea stage to software integration, prototyping and mass production.",
       descBullets: [
-        "Created series of company protocols and guidelines for project management, IT equipment purchasing, grand application processes, etc.",
-        "•	Specialized in software delivery management, process management, business requirement definition, and client training."
+        "Developed comprehensive company protocols and guidelines for project management, IT procurement, and application processes, establishing standardized procedures across the organization",
+        "Specialized in software delivery management, business requirement definition, and client training, ensuring successful adoption and stakeholder satisfaction"
       ]
     }
   ]
