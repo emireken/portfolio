@@ -343,10 +343,6 @@ const achievementSection = {
         {
           name: "Turkish Patent and Trademark Office Website",
           url: "https://www.turkpatent.gov.tr/TURKPATENT/"
-        },
-        {
-          name: "See My Resume",
-          url: "https://drive.google.com/file/d/1gmxcEI0GtxnnKDXMs2B6q5LVbojk3Kgv/view?usp=sharing"
         }
       ]
     }
@@ -391,7 +387,7 @@ const blogSection = {
       description: "Personal Blog about my thoughts and ideas."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
