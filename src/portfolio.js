@@ -5,6 +5,19 @@
 // Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
+import atuLogoImg from "./assets/images/atu_logo.png";
+import bauLogoImg from "./assets/images/bau_logo.png";
+import psdLogoImg from "./assets/images/psd_logo.jpg";
+import welocalizeLogoImg from "./assets/images/welocalize_logo.png";
+import stellantisLogoImg from "./assets/images/stellantis_logo.png";
+import azakLogoImg from "./assets/images/azak_logo.png";
+import acibademLogoImg from "./assets/images/acibadem_logo.png";
+import fyaLogoImg from "./assets/images/fya_logo.png";
+import astoreLogoImg from "./assets/images/astore_logo.png";
+import cadioLogoImg from "./assets/images/cadio_logo.png";
+import kafkaLogoImg from "./assets/images/kafka_logo.png";
+import azureLogoImg from "./assets/images/azure_logo.png";
+import patentsLogoImg from "./assets/images/patents_logo.png";
 
 const illustration = {
   animated: true // set to false to use static SVG
@@ -122,7 +135,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Ataturk University",
-      logo: require("./assets/images/atu_logo.png"),
+      logo: atuLogoImg,
       subHeader: "Master of Business Administration",
       duration: "2017 - 2019",
       desc: "Specialized in Project Management within Software Development environments. Developed expertise in business process optimization, stakeholder management, and project governance frameworks that directly inform current business analyst practices."
@@ -133,7 +146,7 @@ const educationInfo = {
     },
     {
       schoolName: "Bahcesehir University",
-      logo: require("./assets/images/bau_logo.png"),
+      logo: bauLogoImg,
       subHeader: "Master of Science in Bioengineering",
       duration: "2012 - 2013",
       desc: "Conducted research on Cardiovascular Mock Circuit systems, strengthening analytical skills in complex system design, requirements documentation, and validation testing methodologies applicable to enterprise software solutions."
@@ -144,7 +157,7 @@ const educationInfo = {
     },
     {
       schoolName: "Bahcesehir University",
-      logo: require("./assets/images/bau_logo.png"),
+      logo: bauLogoImg,
       subHeader: "Bachelor of Science in Mechatronics Engineering",
       duration: "2007 - 2012",
       desc: "Ranked top 10% in the program. Took courses about Software Development, Embedded Software, Electronics, ..."
@@ -186,7 +199,7 @@ const workExperiences = {
     {
       role: "Software Business Analyst",
       company: "Performance Systems Development (PSD)",
-      companylogo: require("./assets/images/psd_logo.jpg"),
+      companylogo: psdLogoImg,
       date: "December 2022 – Present",
       desc: "Elicited, analyzed, and documented business and functional requirements by collaborating with stakeholders, product owners, and development teams to drive software solutions focused on performance, energy efficiency, and sustainability.",
       descBullets: [
@@ -199,7 +212,7 @@ const workExperiences = {
     {
       role: "Tech Linguistic Tester",
       company: "Welocalize, Inc. ",
-      companylogo: require("./assets/images/welocalize_logo.png"),
+      companylogo: welocalizeLogoImg,
       date: "Aug 2021 – Nov 2022",
       desc: "At Welocalize, a leading provider of multilingual content transformation services in translation, localization, and adaptation for over 250 languages, I contributed to quality assurance efforts supporting a global network of over 250,000 in-country linguistic resources.",
       descBullets: [
@@ -210,7 +223,7 @@ const workExperiences = {
     {
       role: "IT Project Leader",
       company: "Stellantis - TOFAS Automotive",
-      companylogo: require("./assets/images/stellantis_logo.png"),
+      companylogo: stellantisLogoImg,
       date: "June 2018 – May 2021",
       desc: "Led cross-functional IT and business initiatives spanning multiple products, translating complex business requirements into technical specifications while maintaining project scope, timeline, and quality standards.",
       descBullets: [
@@ -223,7 +236,7 @@ const workExperiences = {
     {
       role: "Assistant Manager",
       company: "Azak Collective Company",
-      companylogo: require("./assets/images/azak_logo.png"),
+      companylogo: azakLogoImg,
       date: "November 2016 – June 2018",
       desc: "Managed an installation project, a flexible and well-structured end-to-end IT solution, which covers stock management, accounting, selling, and invoicing for the family business",
       descBullets: [
@@ -233,7 +246,7 @@ const workExperiences = {
     {
       role: "IT Project Management Specialist",
       company: "Acıbadem Healthcare Group",
-      companylogo: require("./assets/images/acibadem_logo.png"),
+      companylogo: acibademLogoImg,
       date: "Jan 2015 – Sep 2015",
       desc: "Managed A|Store project from idea stage to software integration, prototyping and mass production.",
       descBullets: [
@@ -259,7 +272,7 @@ const bigProjects = {
   // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/fya_logo.png"),
+      image: fyaLogoImg,
       projectName: "FIAT Connect",
       projectDesc:
         "Connected cars are primarily vehicles that are equipped with telematics control units to access the internet. They have inbuilt GSM modules and can connect with entities outside the vehicle. It has several value-added services in FIAT Yol Arkadaşım application such as vehicle control, improved safety.",
@@ -272,7 +285,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/astore_logo.png"),
+      image: astoreLogoImg,
       projectName: "Medicine and Medical Consumables Management Unit",
       projectDesc:
         "A|Store is a logistics management system that manages the medicine and medical consumables of  Acıbadem Healthcare Group. A|STORE is integrated with outsourcing applications like Hospital Information System      (HIS) and Enterprise Resource Planning (ERP). It has also hardware like an electronic cabinet and console system.",
@@ -285,7 +298,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/cadio_logo.png"),
+      image: cadioLogoImg,
       projectName:
         "Construction and Feedback Control of an Elastance-driven Mock Circuit",
       projectDesc:
@@ -314,7 +327,7 @@ const achievementSection = {
       title: "Udacity - Data Streaming",
       subtitle:
         "Learned how to process data in real-time by building fluency in modern data engineering tools, such as Apache Spark, Kafka, Spark Streaming, and Kafka Streaming.",
-      image: require("./assets/images/kafka_logo.png"),
+      image: kafkaLogoImg,
       footerLink: [
         {
           name: "View Syllabus",
@@ -326,7 +339,7 @@ const achievementSection = {
       title: "Microsoft Azure Machine Learning",
       subtitle:
         "Learned how to analyze the requirements for AI solutions, recommend appropriate tools and technologies, and implements solutions that meet scalability and performance requirements designing and Implementing an Azure AI Solution.",
-      image: require("./assets/images/azure_logo.png"),
+      image: azureLogoImg,
       footerLink: [
         {
           name: "View Syllabus",
@@ -338,7 +351,7 @@ const achievementSection = {
       title: "Patents and Design Registrations",
       subtitle:
         "During the A|Store project, we developed several pieces of equipment and applied them to the Turkish Patent and Trademark Office. You can find details and applications numbers of patents and design registrations in my resume.",
-      image: require("./assets/images/patents_logo.png"),
+      image: patentsLogoImg,
       footerLink: [
         {
           name: "Turkish Patent and Trademark Office Website",

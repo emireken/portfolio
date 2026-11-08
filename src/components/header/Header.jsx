@@ -3,6 +3,7 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
+import androidChrome384x384Img from "../../assets/images/android-chrome-384x384.png";
 import {
   //greeting,
   workExperiences,
@@ -29,7 +30,7 @@ function Header() {
           {/* <span className="grey-color"> &lt;</span> */}
           <img
             alt="name logo"
-            src={require("../../assets/images/android-chrome-384x384.png")}
+            src={androidChrome384x384Img}
           ></img>
           {/* <span className="logo-name">{greeting.username}</span> */}
           {/* <span className="grey-color">/&gt;</span> */}
