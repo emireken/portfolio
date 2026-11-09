@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="t">
+  <title id="t">Business analysis process: discover, define, map, deliver</title>
+  <!-- board -->
+  <rect x="40" y="40" width="560" height="340" rx="14" fill="#ffffff" stroke="#3f3d56" stroke-width="4"/>
+  <rect x="290" y="380" width="60" height="50" fill="#3f3d56"/>
+  <rect x="220" y="428" width="200" height="12" rx="6" fill="#3f3d56"/>
+  <!-- sticky notes -->
+  <rect x="70" y="66" width="62" height="54" rx="4" fill="#ffd166" transform="rotate(-4 101 93)"/>
+  <rect x="82" y="84" width="38" height="5" rx="2" fill="#3f3d56" opacity=".5" transform="rotate(-4 101 93)"/>
+  <rect x="82" y="96" width="28" height="5" rx="2" fill="#3f3d56" opacity=".5" transform="rotate(-4 101 93)"/>
+  <rect x="146" y="70" width="62" height="54" rx="4" fill="#9ee6c9" transform="rotate(3 177 97)"/>
+  <rect x="158" y="88" width="38" height="5" rx="2" fill="#3f3d56" opacity=".5" transform="rotate(3 177 97)"/>
+  <rect x="158" y="100" width="24" height="5" rx="2" fill="#3f3d56" opacity=".5" transform="rotate(3 177 97)"/>
+  <!-- requirements doc -->
+  <rect x="470" y="62" width="100" height="120" rx="6" fill="#e8e6ff" stroke="#6c63ff" stroke-width="3"/>
+  <rect x="486" y="82" width="60" height="7" rx="3" fill="#6c63ff"/>
+  <g fill="#3f3d56" opacity=".45">
+    <rect x="486" y="102" width="68" height="5" rx="2"/>
+    <rect x="486" y="116" width="58" height="5" rx="2"/>
+    <rect x="486" y="130" width="68" height="5" rx="2"/>
+    <rect x="486" y="144" width="44" height="5" rx="2"/>
+  </g>
+  <path d="M488 162 l8 8 l16 -16" fill="none" stroke="#2bb673" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- process flow -->
+  <g font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">
+    <rect x="66" y="214" width="104" height="52" rx="10" fill="#6c63ff"/>
+    <text x="118" y="245" fill="#ffffff">Discover</text>
+    <rect x="200" y="214" width="104" height="52" rx="10" fill="#e8e6ff" stroke="#6c63ff" stroke-width="3"/>
+    <text x="252" y="245" fill="#3f3d56">Define</text>
+    <rect x="334" y="214" width="104" height="52" rx="10" fill="#e8e6ff" stroke="#6c63ff" stroke-width="3"/>
+    <text x="386" y="245" fill="#3f3d56">Map</text>
+    <rect x="468" y="214" width="104" height="52" rx="10" fill="#6c63ff"/>
+    <text x="520" y="245" fill="#ffffff">Deliver</text>
+  </g>
+  <g stroke="#3f3d56" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M172 240 h24 m-8 -7 l8 7 l-8 7"/>
+    <path d="M306 240 h24 m-8 -7 l8 7 l-8 7"/>
+    <path d="M440 240 h24 m-8 -7 l8 7 l-8 7"/>
+  </g>
+  <!-- decision + feedback loop -->
+  <path d="M386 268 v26" stroke="#3f3d56" stroke-width="3" fill="none"/>
+  <polygon points="386,296 412,322 386,348 360,322" fill="#ffd166" stroke="#3f3d56" stroke-width="3"/>
+  <text x="386" y="328" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#3f3d56">?</text>
+  <path d="M360 322 H252 V272 m-7 8 l7 -8 l7 8" stroke="#6c63ff" stroke-width="3" fill="none" stroke-dasharray="7 6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- small chart -->
+  <g transform="translate(250 66)">
+    <rect x="0" y="0" width="180" height="110" rx="8" fill="#f5f4ff" stroke="#e0ddff" stroke-width="2"/>
+    <rect x="22" y="60" width="22" height="34" rx="3" fill="#c9c6ff"/>
+    <rect x="58" y="44" width="22" height="50" rx="3" fill="#a7a1ff"/>
+    <rect x="94" y="30" width="22" height="64" rx="3" fill="#857dff"/>
+    <rect x="130" y="16" width="22" height="78" rx="3" fill="#6c63ff"/>
+  </g>
+</svg>

@@ -45,7 +45,13 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
+            {greeting.profileImage ? (
+              <img
+                className="profile-photo"
+                alt={greeting.username}
+                src={import.meta.env.BASE_URL + greeting.profileImage}
+              ></img>
+            ) : illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
               <img

@@ -56,7 +56,9 @@ export default function StartupProject() {
                     </h5>
                     <p
                       className={
-                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                        isDark
+                          ? "dark-mode card-subtitle project-desc"
+                          : "card-subtitle project-desc"
                       }
                     >
                       {project.projectDesc}

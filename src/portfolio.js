@@ -27,10 +27,12 @@ const greeting = {
   username: "Emir Eken",
   title: "Hello, I'm Emir",
   subTitle: emoji(
-    "Software Business Analyst with senior-level expertise in technical analysis, product integration, and data analytics. Delivered a performance analytics platform that improved energy-efficiency reporting for a major consulting firm and led connected-vehicle data services for a global automotive manufacturer. Proficient in Agile/Scrum, requirements gathering, and stakeholder collaboration. Aiming to leverage analytical and project-leadership skills to drive successful software solutions. "
+    "Senior IT Business Analyst with 10+ years across healthcare, automotive, and building-performance software. I lead stakeholder discovery, requirements, and current/future-state process mapping for enterprise and client-facing systems, from Salesforce and HubSpot CRM workflows to a connected-vehicle cloud application and a software rollout across a 37-location healthcare group. US Green Card holder, based in Ithaca, NY."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1gmxcEI0GtxnnKDXMs2B6q5LVbojk3Kgv/view?usp=sharing",
+  resumeLink: "",
+  // Profile photo: put your photo in the public/ folder and set its file name here,
+  // e.g. "profile.jpg". Leave empty to show the illustration instead.
+  profileImage: "",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -52,78 +54,38 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "BUSINESS ANALYST SPECIALIZING IN REQUIREMENTS GATHERING, AGILE EXCELLENCE, AND STAKEHOLDER COLLABORATION",
+  subTitle: "SENIOR BUSINESS ANALYST: REQUIREMENTS, PROCESS MAPPING, AND SYSTEMS INTEGRATION",
   skills: [
     emoji(
-      "⚡ Elicit, analyze, and document business and functional requirements through stakeholder collaboration"
+      "⚡ Lead stakeholder discovery and structured interviews to surface system usage, dependencies, and functional requirements"
     ),
     emoji(
-      "⚡ Translate business needs into user stories, acceptance criteria, and detailed process flows"
+      "⚡ Translate business needs into user stories, acceptance criteria, and current/future-state process flows"
     ),
     emoji(
-      "⚡ Lead Agile/Scrum ceremonies, manage product backlogs, and support UAT initiatives"
+      "⚡ Lead and support Agile/Scrum ceremonies, including backlog creation, sprint planning, and UAT"
     ),
     emoji(
-      "⚡ Validate system functionality through comprehensive testing and quality assurance"
+      "⚡ Analyze API integrations and system dependencies, and validate functionality through testing"
     )
   ],
-
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
-    {
-      skillName: "jira",
-      fontAwesomeClassname: "fab fa-jira"
-    },
-    {
-      skillName: "confluence",
-      fontAwesomeClassname: "fas fa-book"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "excel",
-      fontAwesomeClassname: "fas fa-table"
-    },
-    {
-      skillName: "agile",
-      fontAwesomeClassname: "fas fa-project-diagram"
-    },
-    {
-      skillName: "user-stories",
-      fontAwesomeClassname: "fas fa-sticky-note"
-    },
-    {
-      skillName: "process-modeling",
-      fontAwesomeClassname: "fas fa-sitemap"
-    },
-    {
-      skillName: "QA Testing",
-      fontAwesomeClassname: "fas fa-spell-check"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "github",
-      fontAwesomeClassname: "fab fa-github"
-    },
-    {
-      skillName: "api-testing",
-      fontAwesomeClassname: "fas fa-plug"
-    },
-    {
-      skillName: "data-analytics",
-      fontAwesomeClassname: "fas fa-chart-bar"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    }
+    {skillName: "Jira", fontAwesomeClassname: "fab fa-jira"},
+    {skillName: "Confluence", fontAwesomeClassname: "fas fa-book"},
+    {skillName: "Azure DevOps", fontAwesomeClassname: "fab fa-microsoft"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "Salesforce", fontAwesomeClassname: "fab fa-salesforce"},
+    {skillName: "HubSpot", fontAwesomeClassname: "fab fa-hubspot"},
+    {skillName: "ServiceNow", fontAwesomeClassname: "fas fa-cogs"},
+    {skillName: "SAP", fontAwesomeClassname: "fas fa-industry"},
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Excel", fontAwesomeClassname: "fas fa-table"},
+    {skillName: "Visio / Process Mapping", fontAwesomeClassname: "fas fa-sitemap"},
+    {skillName: "Postman / Swagger", fontAwesomeClassname: "fas fa-plug"},
+    {skillName: "Qlik Sense / Power BI", fontAwesomeClassname: "fas fa-chart-bar"},
+    {skillName: "UAT & QA Testing", fontAwesomeClassname: "fas fa-clipboard-check"}
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -147,8 +109,8 @@ const educationInfo = {
     {
       schoolName: "Bahcesehir University",
       logo: bauLogoImg,
-      subHeader: "Master of Science in Bioengineering",
-      duration: "2012 - 2013",
+      subHeader: "Master of Science in Biomedical Engineering",
+      duration: "2012 - 2014",
       desc: "Conducted research on Cardiovascular Mock Circuit systems, strengthening analytical skills in complex system design, requirements documentation, and validation testing methodologies applicable to enterprise software solutions."
       // descBullets: [
       //   "The goal of this project is to design and build a cardiovascular system mock circuit (CVMC) that is drivable with an elastance-based feed-back control left and right ventricles that can replicate the heart’s pressure-volume relationship accurately. For this goal pressure-volume relationship was calculated using elastance."
@@ -160,7 +122,7 @@ const educationInfo = {
       logo: bauLogoImg,
       subHeader: "Bachelor of Science in Mechatronics Engineering",
       duration: "2007 - 2012",
-      desc: "Ranked top 10% in the program. Took courses about Software Development, Embedded Software, Electronics, ..."
+      desc: "Ranked top 10% in the program. Coursework in software development, embedded software, and electronics."
       //descBullets: [""]
     }
   ]
@@ -169,7 +131,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Business Requirements Analysis",
@@ -198,60 +160,66 @@ const workExperiences = {
   experience: [
     {
       role: "Software Business Analyst",
-      company: "Performance Systems Development (PSD)",
+      company: "PSD",
       companylogo: psdLogoImg,
       date: "December 2022 – Present",
-      desc: "Elicited, analyzed, and documented business and functional requirements by collaborating with stakeholders, product owners, and development teams to drive software solutions focused on performance, energy efficiency, and sustainability.",
+      desc: "Performance Systems Development (PSD) builds software, analytics, and consulting services for building performance, energy efficiency, and sustainability. I work across its internal and client-facing systems.",
       descBullets: [
-        "Translated business needs into user stories, acceptance criteria, and process flows to support software development and enhancements",
-        "Supported Agile/Scrum ceremonies, including creating backlog, sprint planning, and user acceptance testing (UAT)",
-        "Validated system functionality by testing features, identifying defects, and ensuring solutions met business requirements",
-
+        "Led stakeholder discovery sessions and structured interviews with business owners, product owners, and technical teams to surface system usage, dependencies, and functional requirements",
+        "Translated business needs into user stories, acceptance criteria, and current/future-state process flows that guided development and system enhancements",
+        "Led and supported Agile/Scrum ceremonies, including backlog creation, sprint planning, and UAT",
+        "Analyzed CRM workflows across Salesforce and HubSpot to identify business process improvements",
+        "Assessed application workflows and integration dependencies, documenting current-state capabilities to inform disposition decisions",
+        "Tested new features, identified defects, and validated that solutions met business requirements"
       ]
     },
     {
       role: "Tech Linguistic Tester",
-      company: "Welocalize, Inc. ",
+      company: "Welocalize, Inc.",
       companylogo: welocalizeLogoImg,
-      date: "Aug 2021 – Nov 2022",
-      desc: "At Welocalize, a leading provider of multilingual content transformation services in translation, localization, and adaptation for over 250 languages, I contributed to quality assurance efforts supporting a global network of over 250,000 in-country linguistic resources.",
+      date: "August 2021 – December 2022",
+      desc: "Quality assurance for a multilingual localization provider serving 250+ languages.",
       descBullets: [
-        "Validated content already localized to the Turkish language, catching any errors in the content, such as grammar, typos, syntax, etc.",
-        "Tested APIs for integrations and checked UIs for functional issues"
+        "Tested API integrations and performed UI functional testing to identify defects",
+        "Validated Turkish-localized content, catching grammar, spelling, and syntax errors"
       ]
     },
     {
       role: "IT Project Leader",
-      company: "Stellantis - TOFAS Automotive",
+      company: "Stellantis – TOFAS Automotive",
       companylogo: stellantisLogoImg,
       date: "June 2018 – May 2021",
-      desc: "Led cross-functional IT and business initiatives spanning multiple products, translating complex business requirements into technical specifications while maintaining project scope, timeline, and quality standards.",
+      desc: "Led requirements and delivery coordination for FIAT Yol Arkadaşım (FYA), a cloud application within FIAT Turkey's Connected Vehicle Project.",
       descBullets: [
-        "Facilitated communication and alignment between IT departments and business stakeholders, ensuring shared understanding of project objectives and deliverables",
-        "Authored technical analysis documents and requirements specifications for software development projects, improving clarity and reducing scope creep",
-        "Contributed to UI/UX design decisions as part of the core decision-making team, balancing business needs with user experience best practices",
-        "Conducted comprehensive QA testing across mobile and web platforms, identifying and documenting defects that resulted in high-quality production releases"
+        "Bridged IT and business teams by mapping data flows, surfacing integration dependencies across SAP and ServiceNow environments, and translating program decisions into execution plans",
+        "Facilitated cross-functional discovery with data architects, developers, and business stakeholders to map current/future-state workflows in Visio",
+        "Wrote business requirement documents, current-state assessments, and functional specifications for partners and technical audiences; reviewed API specs and ADD documents",
+        "Designed value-added customer services using vehicle CAN data",
+        "Built and maintained in-depth Qlik Sense dashboards analyzing vehicle and program data",
+        "Analyzed microservices in Postman and Swagger to eliminate unnecessary data transfer, and validated test-bench data against real-vehicle data"
       ]
     },
     {
       role: "Assistant Manager",
       company: "Azak Collective Company",
       companylogo: azakLogoImg,
-      date: "November 2016 – June 2018",
-      desc: "Managed an installation project, a flexible and well-structured end-to-end IT solution, which covers stock management, accounting, selling, and invoicing for the family business",
+      date: "January 2017 – June 2018",
+      desc: "Family-owned wholesale textile company serving customers since the 1950s.",
       descBullets: [
-        "Worked with local vendors for ease maintenance and technical support."
+        "Led installation of an end-to-end IT system covering stock management, accounting, sales, and invoicing",
+        "Coordinated with local vendors to secure ongoing maintenance and technical support"
       ]
     },
     {
       role: "IT Project Management Specialist",
       company: "Acıbadem Healthcare Group",
       companylogo: acibademLogoImg,
-      date: "Jan 2015 – Sep 2015",
-      desc: "Managed A|Store project from idea stage to software integration, prototyping and mass production.",
+      date: "April 2014 – December 2016",
+      desc: "Owned the A|Store project lifecycle across 21 hospitals and 16 medical centers (~17,000 employees), from current-state assessment and requirements through software integration and deployment.",
       descBullets: [
-        "Developed comprehensive company protocols and guidelines for project management, IT procurement, and application processes, establishing standardized procedures across the organization",
-        "Specialized in software delivery management, business requirement definition, and client training, ensuring successful adoption and stakeholder satisfaction"
+        "Established governance frameworks, protocols, and process standards for IT project management and procurement",
+        "Coordinated business owners, product owners, hardware vendors, and technical teams across all delivery phases, and drove adoption through client training",
+        "Brought structure to loosely defined workflows in a newly organized environment, aligning stakeholders across decentralized teams"
       ]
     }
   ]
@@ -268,44 +236,35 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Main Projects",
-  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Case Studies",
+  subtitle: "WHAT THE PROBLEM WAS, WHAT I DID, AND WHAT IT DELIVERED",
   projects: [
     {
       image: fyaLogoImg,
-      projectName: "FIAT Connect",
+      projectName: "FIAT Yol Arkadaşım: Connected-Vehicle Services",
       projectDesc:
-        "Connected cars are primarily vehicles that are equipped with telematics control units to access the internet. They have inbuilt GSM modules and can connect with entities outside the vehicle. It has several value-added services in FIAT Yol Arkadaşım application such as vehicle control, improved safety.",
+        "Challenge: FIAT Turkey needed value-added digital services for drivers, built on data from connected vehicles.\n\nMy role: IT Project Leader bridging IT, business teams, and external partners.\n\nWhat I delivered: business requirement documents, functional specifications, and current/future-state workflows; customer features designed from vehicle CAN data; API and microservice testing in Postman and Swagger; Qlik Sense dashboards for vehicle and program data.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://yolarkadasim.fiat.com.tr/"
-        }
-        //  you can add extra buttons here.
+        {name: "Visit Website", url: "https://yolarkadasim.fiat.com.tr/"}
       ]
     },
     {
       image: astoreLogoImg,
-      projectName: "Medicine and Medical Consumables Management Unit",
+      projectName: "A|Store: Medicine and Medical Consumables Management",
       projectDesc:
-        "A|Store is a logistics management system that manages the medicine and medical consumables of  Acıbadem Healthcare Group. A|STORE is integrated with outsourcing applications like Hospital Information System      (HIS) and Enterprise Resource Planning (ERP). It has also hardware like an electronic cabinet and console system.",
+        "Challenge: Acıbadem needed one system to manage medicines and medical consumables across a decentralized group of 21 hospitals and 16 medical centers.\n\nMy role: owned the project from current-state assessment to deployment.\n\nWhat I delivered: requirements definition, integration with the Hospital Information System (HIS) and ERP, coordination with hardware vendors on electronic cabinets and consoles, governance protocols, and user training.\n\nScale: 37 locations, ~17,000 employees.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://www.acibademtechnology.com/a-store/"
-        }
-        //  you can add extra buttons here.
+        {name: "Visit Website", url: "http://www.acibademtechnology.com/a-store/"}
       ]
     },
     {
       image: cadioLogoImg,
-      projectName:
-        "Construction and Feedback Control of an Elastance-driven Mock Circuit",
+      projectName: "Research: Elastance-Driven Cardiovascular Mock Circuit",
       projectDesc:
-        "The goal of this project is to design and build a cardiovascular system mock circuit (CVMC) that is drivable with an elastance-based feed-back control left and right ventricles that can replicate the heart’s pressure-volume relationship accurately. For this goal pressure-volume relationship was calculated using elastance.",
+        "Master's research at Bahçeşehir University. Designed and built a cardiovascular mock circuit with elastance-based feedback control of the left and right ventricles, modeled in MATLAB/Simulink alongside a physical system to replicate the heart's pressure-volume relationship.",
       footerLink: [
         {
-          name: "Download Master Thesis ",
+          name: "Download Master Thesis",
           url: "https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=gyLHMouPes-CvnhRcjQsKe-cSBEm3UmEaQoCKNtfuL60952s5jQiUr1qDRZ9MDeG"
         }
       ]
@@ -320,7 +279,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Professional development, certifications, and patents",
 
   achievementsCards: [
     {
@@ -338,7 +297,7 @@ const achievementSection = {
     {
       title: "Microsoft Azure Machine Learning",
       subtitle:
-        "Learned how to analyze the requirements for AI solutions, recommend appropriate tools and technologies, and implements solutions that meet scalability and performance requirements designing and Implementing an Azure AI Solution.",
+        "Learned how to analyze the requirements for AI solutions, recommend appropriate tools and technologies, and implement solutions that meet scalability and performance requirements (AI-100: Designing and Implementing an Azure AI Solution).",
       image: azureLogoImg,
       footerLink: [
         {
@@ -350,7 +309,7 @@ const achievementSection = {
     {
       title: "Patents and Design Registrations",
       subtitle:
-        "During the A|Store project, we developed several pieces of equipment and applied them to the Turkish Patent and Trademark Office. You can find details and applications numbers of patents and design registrations in my resume.",
+        "During the A|Store project, we developed several pieces of equipment and applied them to the Turkish Patent and Trademark Office. Application numbers are available on request.",
       image: patentsLogoImg,
       footerLink: [
         {
@@ -363,7 +322,7 @@ const achievementSection = {
     // {
     //   title: "FIAT - Recognition and Appreciation Awards",
     //   subtitle:
-    //     "During the A|Store project, we developed several pieces of equipment and applied them to the Turkish Patent and Trademark Office. You can find details and applications numbers of patents and design registrations in my resume.",
+    //     "During the A|Store project, we developed several pieces of equipment and applied them to the Turkish Patent and Trademark Office. Application numbers are available on request.",
     //   image: require("./assets/images/awards_logo.png"),
     //   footerLink: [
     //     {
@@ -438,7 +397,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Hiring for a business analyst role or want to talk about a project? My inbox is open.",
   email_address: "emirgokberk.eken@gmail.com"
 };
 

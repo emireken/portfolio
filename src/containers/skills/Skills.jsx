@@ -1,12 +1,10 @@
 import React, {useContext} from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import {illustration, skillsSection} from "../../portfolio";
+import {skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
-import codingPerson from "../../assets/lottie/codingPerson";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
-import developerActivityImg from "../../assets/images/developerActivity.svg";
+import baProcessImg from "../../assets/images/baProcess.svg";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
@@ -18,14 +16,10 @@ export default function Skills() {
       <div className="skills-main-div">
         <Fade left duration={1000}>
           <div className="skills-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={codingPerson} />
-            ) : (
-              <img
-                alt="Man Working"
-                src={developerActivityImg}
-              ></img>
-            )}
+            <img
+              alt="Business analysis process: discover, define, map, deliver"
+              src={baProcessImg}
+            ></img>
           </div>
         </Fade>
         <Fade right duration={1000}>
