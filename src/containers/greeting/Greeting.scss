@@ -40,9 +40,57 @@
   color: $textColor !important;
 }
 
-.greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
+.greeting-text.dark-mode {
+  color: $textColorDark !important;
+}
+
+// Subtitle: headline -> supporting summary -> location tag
+.greeting-headline {
+  margin: 20px 0 0;
+  max-width: 36ch;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: $textColor;
+  background: none;
+}
+.greeting-headline.dark-mode {
+  color: $textColorDark;
+}
+
+.greeting-summary {
+  margin: 16px 0 0;
+  max-width: 58ch;
+  font-size: 18px;
+  line-height: 1.7;
+  color: $subTitle;
+  background: none;
+}
+.greeting-summary.dark-mode {
+  color: #aab3c0;
+}
+
+.greeting-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 20px 0 24px;
+  padding: 6px 14px;
+  border: 1px solid $lightBorder1;
+  border-radius: 999px;
+  font-size: 15px;
+  color: $subTitle;
+  background: none;
+}
+.greeting-location i {
+  color: $buttonHover;
+}
+.greeting-location.dark-mode {
+  color: #aab3c0;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.greeting-location.dark-mode i {
+  color: $educationCardBorder;
 }
 
 .greeting-image-div > img {
@@ -87,8 +135,11 @@
   .greeting-text {
     font-size: 50px;
   }
-  .greeting-text-p {
-    font-size: 20px;
+  .greeting-headline {
+    font-size: 24px;
+  }
+  .greeting-summary {
+    font-size: 17px;
   }
 }
 @media (max-width: 768px) {
@@ -99,10 +150,22 @@
     font-size: 30px;
     text-align: center;
   }
-  .greeting-text-p {
-    font-size: 16px;
-    line-height: normal;
+  .greeting-headline,
+  .greeting-summary {
+    max-width: none;
     text-align: center;
+  }
+  .greeting-headline {
+    font-size: 20px;
+  }
+  .greeting-summary {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .greeting-location {
+    display: flex;
+    width: fit-content;
+    margin: 16px auto 20px;
   }
   .greeting-main {
     display: block;

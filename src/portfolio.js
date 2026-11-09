@@ -25,14 +25,20 @@ const illustration = {
 
 const greeting = {
   username: "Emir Eken",
-  title: "Hello, I'm Emir",
+  title: "Emir Eken",
+  // Headline under your name: keep it to one short sentence
   subTitle: emoji(
-    "Senior IT Business Analyst with 10+ years across healthcare, automotive, and building-performance software. I lead stakeholder discovery, requirements, and current/future-state process mapping for enterprise and client-facing systems, from Salesforce and HubSpot CRM workflows to a connected-vehicle cloud application and a software rollout across a 37-location healthcare group. US Green Card holder, based in Ithaca, NY."
+    "Senior IT Business Analyst with 10+ years across healthcare, automotive, and building-performance software."
   ),
+  // Supporting paragraph shown under the headline (optional)
+  summary:
+    "I lead stakeholder discovery, requirements, and current/future-state process mapping for enterprise and client-facing systems, from Salesforce and HubSpot CRM workflows to a connected-vehicle cloud application and a software rollout across a 37-location healthcare group.",
+  // Small tag shown under the summary (optional)
+  location: "Ithaca, NY · US Green Card holder",
   resumeLink: "",
   // Profile photo: put your photo in the public/ folder and set its file name here,
   // e.g. "profile.jpg". Leave empty to show the illustration instead.
-  profileImage: "",
+  profileImage: "profile.png",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -57,16 +63,16 @@ const skillsSection = {
   subTitle: "SENIOR BUSINESS ANALYST: REQUIREMENTS, PROCESS MAPPING, AND SYSTEMS INTEGRATION",
   skills: [
     emoji(
-      "⚡ Lead stakeholder discovery and structured interviews to surface system usage, dependencies, and functional requirements"
+      "Lead stakeholder discovery and structured interviews to surface system usage, dependencies, and functional requirements"
     ),
     emoji(
-      "⚡ Translate business needs into user stories, acceptance criteria, and current/future-state process flows"
+      "Translate business needs into user stories, acceptance criteria, and current/future-state process flows"
     ),
     emoji(
-      "⚡ Lead and support Agile/Scrum ceremonies, including backlog creation, sprint planning, and UAT"
+      "Lead and support Agile/Scrum ceremonies, including backlog creation, sprint planning, and UAT"
     ),
     emoji(
-      "⚡ Analyze API integrations and system dependencies, and validate functionality through testing"
+      "Analyze API integrations and system dependencies, and validate functionality through testing"
     )
   ],
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -277,7 +283,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: "Achievements and Certifications",
   subtitle:
     "Professional development, certifications, and patents",
 
@@ -395,7 +401,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact",
   subtitle:
     "Hiring for a business analyst role or want to talk about a project? My inbox is open.",
   email_address: "emirgokberk.eken@gmail.com"

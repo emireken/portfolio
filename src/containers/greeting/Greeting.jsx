@@ -1,6 +1,5 @@
 import React, {useContext} from "react";
 import {Fade} from "react-reveal";
-import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -27,17 +26,33 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
                 className={
-                  isDark
-                    ? "dark-mode greeting-text-p"
-                    : "greeting-text-p subTitle"
+                  isDark ? "dark-mode greeting-headline" : "greeting-headline"
                 }
               >
                 {greeting.subTitle}
               </p>
+              {greeting.summary && (
+                <p
+                  className={
+                    isDark ? "dark-mode greeting-summary" : "greeting-summary"
+                  }
+                >
+                  {greeting.summary}
+                </p>
+              )}
+              {greeting.location && (
+                <p
+                  className={
+                    isDark ? "dark-mode greeting-location" : "greeting-location"
+                  }
+                >
+                  <i className="fas fa-map-marker-alt" aria-hidden="true"></i>
+                  {greeting.location}
+                </p>
+              )}
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
